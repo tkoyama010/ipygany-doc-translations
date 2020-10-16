@@ -2,3 +2,8 @@
 sphinx-intl
 transifex-client
 sphinx-rtd-theme
+pygments==2.6.1
+jupyter-sphinx
+vtk
+meshpy
+pyvista
