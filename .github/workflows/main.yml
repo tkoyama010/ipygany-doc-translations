@@ -33,6 +33,7 @@ jobs:
         (cd ipygany; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
         pip3 install -U pip setuptools
         pip3 install -r ./requirements.txt
+        pip3 install -r ./ipygany/docs/source/requirements.txt
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api
