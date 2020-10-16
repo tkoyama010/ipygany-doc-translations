@@ -1,3 +1,4 @@
 -e ./ipygany
 sphinx-intl
 transifex-client
+sphinx-rtd-theme
