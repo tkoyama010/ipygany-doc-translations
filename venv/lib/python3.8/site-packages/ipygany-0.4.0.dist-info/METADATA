@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ipygany
+Version: 0.4.0
+Summary: Scientific Visualization in Jupyter
+Home-page: https://github.com/martinRenou/ipygany
+Author: Martin Renou
+Author-email: martin.renou@gmail.com
+License: BSD
+Keywords: Jupyter,Widgets,IPython
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Jupyter
+Requires-Dist: ipywidgets (>=7.0.0)
+Requires-Dist: traittypes
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: sphinx (>=1.5) ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: nbsphinx (<0.4.0,>=0.2.13) ; extra == 'docs'
+Requires-Dist: jupyter-sphinx ; extra == 'docs'
+Requires-Dist: nbsphinx-link ; extra == 'docs'
+Requires-Dist: pytest-check-links ; extra == 'docs'
+Requires-Dist: pypandoc ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: vtk ; extra == 'examples'
+Provides-Extra: test
+Requires-Dist: pytest (>=3.6) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: nbval ; extra == 'test'
+
+UNKNOWN
+
+

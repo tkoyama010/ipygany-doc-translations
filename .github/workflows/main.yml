@@ -11,6 +11,9 @@ on:
 jobs:
   script:
     runs-on: macos-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
     steps:
     - name: Get Job URL
       uses: Tiryoh/gha-jobid-action@v0
